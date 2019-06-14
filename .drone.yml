@@ -23,7 +23,7 @@ steps:
   settings:
     auto_tag: true
     dockerfile: validateur_api/Dockerfile
-    context: horodateur_api
+    context: validateur_api
     repo: montmassoncircleci/validateur_api
     password: 
       from_secret: password
